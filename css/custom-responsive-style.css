@@ -174,6 +174,9 @@
 	.social-icons li {
 		margin: 0 8px;
 	}
+	.two{
+		margin-top: 20%;
+	}
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -213,10 +216,10 @@
 		height: 60vh;
 	}
 	header {
-		background: #a8a8a8; /* Old browsers */
+		background: #000000; /* Old browsers */
 		position: fixed;
 		width: 100%;
-		padding: 20px;
+		padding: 40px;
 		z-index: 99999;
 	}
 	header .mobile-logo {
@@ -291,6 +294,7 @@
 	#Testimonials .testi-wrapper .old-testimonials {
 		width: 46%;
 	}
+
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -345,5 +349,6 @@
 	}
 	#Testimonials .testi-wrapper .each-testi {
 		width: 31%;
+	}
 	}
 }
